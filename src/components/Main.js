@@ -1,6 +1,6 @@
 const Main =()=>{
     return(
-        <main>
+        <main className="main" id="main">
             
         </main>
     );

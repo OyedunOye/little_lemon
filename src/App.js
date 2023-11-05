@@ -1,6 +1,6 @@
 import './App.css';
-import Header from './components/Header.js';
-import Nav from './components/Nav';
+import Menubar from './components/Menubar.js';
+import About from './components/About';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
@@ -8,9 +8,9 @@ function App() {
   return (
     <>
     
-      <Header/>
+      <Menubar/>
 
-      <Nav />
+      <About />
      
       <Main />
 
