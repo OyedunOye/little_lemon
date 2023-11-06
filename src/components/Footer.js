@@ -18,11 +18,11 @@ const Footer=()=>{
             </div>
             <div>
                 <h2 style={{display: 'flex', flexDirection:"column"}}> Contact</h2>
-                <ul>
-                    <li>Address: Saint Louis Ave, 56-598 Chicago</li>
-                    <li>Phone number: +12 456 7896 77</li>
-                    <li>Email: littlelemon@delicious.com</li>
-                </ul>
+                
+                    <p>Address: Saint Louis Ave, 56-598 Chicago</p>
+                    <p>Phone number: +12 456 7896 77</p>
+                    <p>Email: littlelemon@delicious.com</p>
+                
             </div>
             <div>
                 <h2 style={{marginRight:'2rem', marginLeft:'2rem'}}>Social media links</h2>

@@ -1,6 +1,6 @@
 import './App.css';
 import Menubar from './components/Menubar.js';
-import About from './components/About';
+import Home from './components/Home.js';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
@@ -10,7 +10,7 @@ function App() {
     
       <Menubar/>
 
-      <About />
+      <Home />
      
       <Main />
 

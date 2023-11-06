@@ -1,5 +1,7 @@
 *{
   margin: 0;
+  background-color: white;
+  
 }
 
 .main-nav a{
@@ -24,43 +26,66 @@
 }
 
 .home{
+  /*border-radius: 20px; */
   margin-top: 3rem;
   margin-bottom: 3rem;
-  background-color: 495E57;
   display: flex;
-  /* margin-left: 10rem; */
+  background-color: #495E57;
+  justify-content: space-between;
+  
 }
 
 .little-lemon{
   display: flex;
   flex-direction: column;
-
+  width: 20rem;
+  background-color: #495E57;
+  margin-left: 10rem;
+  margin-top: 3rem; 
 }
 
 .little-lemon h1, h3{
   font-family: serif;
+  background-color: #495E57;
 }
 
 .little-lemon h1{
   font-size: 64;
-  color: F4CE14;
+  color: #F4CE14;
+  margin-bottom: 0.5rem;
 }
 
 .little-lemon h3{
   font-size: 40;
-  color: EDEFEE;
+  color: #EDEFEE;
+  margin-bottom: 1.5rem;
 }
 
 .little-lemon p{
   font-size: 20;
-  color: EDEFEE;
+  background-color: #495E57;
+  color: #EDEFEE;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .little-lemon button{
   font-size: 20;
-  color: EDEFEE;
+  color: black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: F4CE14;
-  border-radius: 16;
+  background-color: #F4CE14;
+  border-radius: 8px;
+  width: 10rem;
+  height: 30px;
+  margin-top: 2rem;
+}
+
+.main button{
+  font-size: 20;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #F4CE14;
+  border-radius: 8px;
+  width: 10rem;
+  height: 30px;
+  align-self:center;
 }
