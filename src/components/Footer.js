@@ -1,7 +1,7 @@
 //import Nav from "./Nav";
 const Footer=()=>{
     return(
-        <footer className="footer" id="footer" style={{display:'flex', marginLeft:'10rem', marginRight:'10rem', backgroundColor: '#D9D9D9'}}>
+        <footer className="footer" id="footer" style={{display:'flex', alignContent:'center', backgroundColor: '#D9D9D9'}}>
             <div style={{marginRight:'2rem', backgroundColor: '#D9D9D9'}}>
                 <img src="/images/little lemon logo.jpg" alt ="little lemon restaurant logo" width="100vw"/>
             </div>
@@ -16,7 +16,7 @@ const Footer=()=>{
                     <a href="/#login" style={{backgroundColor: '#D9D9D9'}}>Login </a>
                 </nav>
             </div>
-            <div>
+            <div style={{backgroundColor:'#d9d9d9'}}>
                 <h2 style={{display: 'flex', flexDirection:"column", backgroundColor:'#d9d9d9'}}> Contact</h2>
                 
                     <p style={{backgroundColor: '#D9D9D9'}}>Address: Saint Louis Ave, 56-598 Chicago</p>
@@ -24,13 +24,13 @@ const Footer=()=>{
                     <p style={{backgroundColor: '#D9D9D9'}}>Email: littlelemon@delicious.com</p>
                 
             </div>
-            <div>
-                <h2 style={{marginRight:'2rem', marginLeft:'2rem'}}>Social media links</h2>
+            <div style={{backgroundColor: '#D9D9D9'}}>
+                <h2 style={{marginRight:'2rem', marginLeft:'2rem', backgroundColor:'#d9d9d9'}}>Social media links</h2>
                 <nav>
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Instagram</li>
-                        <li>Whatsapp</li>
+                    <ul style={{backgroundColor: '#D9D9D9'}}>
+                        <li style={{backgroundColor: '#D9D9D9'}}>Facebook</li>
+                        <li style={{backgroundColor: '#D9D9D9'}}>Instagram</li>
+                        <li style={{backgroundColor: '#D9D9D9'}}>Whatsapp</li>
                     </ul>
                 </nav>
             </div>
